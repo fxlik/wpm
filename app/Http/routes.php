@@ -12,9 +12,17 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('wpmapp.hii');
 });
 
 Route::get('play', function () {
     return view('wpmapp.play');
+});
+
+Route::get('ya', function () {
+    return view('wpmapp.testpage');
+});
+
+Route::get('pa', function () {
+    return view('wpmapp.testplay');
 });

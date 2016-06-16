@@ -22,33 +22,71 @@
 
   <!-- bootstrap js--->
   <script src="{{ asset('/js/bootstrap.min.js') }}" type="text/javascript"></script>
+  <script>
+  function saya() {
+  var elem = document.getElementById("myBar");
+  var width = 1;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (width >= 100) {
+      clearInterval(id);
+    } else {
+      width++;
+      elem.style.width = width + '%';
+    }
+  }
+  }
+  </script>
 @stop
 
 @section('content')
+<style>
+  #myProgress {
+    position: relative;
+    width: 4em;
+    height: 51px;
+    background-color: #ddd;
+  }
+
+  #myBar {
+    position: absolute;
+    width: 1%;
+    margin-right: 0;
+    background-color: #467F21;
+  }
+</style>
 <body onload="addWords()">
   <br>
-<div class="col-md-2">  </div>
+<div class="col-md-1">  </div>
 
-<div class="col-md-8">
+<div class="col-md-10">
 <section id="word-section">
     <div class="waiting"></div>
   </section>
 
   <section id="type-section">
     <input id="typebox" name="typebox" type="text" tabindex="1" autofocus onkeyup="typingTest(event)"/>
-    <div id="timer" class="type-btn"><span>1:00</span></div>
-    <button id="restart" class="type-btn" tabindex="2" onclick="restartTest()">
+    <div id="myProgress" class="type-btn">
+      <div class="myBar"></div>
+    </div>
+    <button onclick="restartTest()" id="restart" class="type-btn" tabindex="2" >
       <span id="restart-symbol">↻</span>
     </button>
   </section>
+
 </div>
-<div class="col-md-2"></div>
+
+<div class="col-md-1"></div>
   <footer>
     <!-- credit -->
   </footer>
-@stop
+
 
 </body>
+
+@stop
+
+
 @section('footer')
 
 @stop

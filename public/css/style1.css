@@ -46,9 +46,8 @@ section {
   font-size: 1.5em;
   height: 4em;
   line-height: 2em;
-  margin: 0 auto;
-  /*margin-top: auto;
-  margin-left: -90px;*/
+  margin-top: auto;
+  margin-left: -90px;
   /* hide 3rd line of text */
   border-radius: 0.25em;
   position: relative;
@@ -60,12 +59,10 @@ section {
 
 #type-section {
   text-align: center;
-
  }
   #type-section > * {
     font-size: 1.5em;
     display: inline-block;
-    margin: 0 auto;
     border-radius: 0.25em;
     border: none;
     color: #fff;
@@ -74,8 +71,8 @@ section {
 #typebox {
   width: 64%;
   color: #000;
-  /*margin-top: auto;
-  margin-left: -240px;*/
+  margin-top: auto;
+  margin-left: -240px;
   padding: 0.5em;
   box-shadow: -1px -1px 5px #383838; }
   #typebox:focus {
