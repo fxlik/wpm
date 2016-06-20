@@ -31,13 +31,15 @@
 
 @section('content')
 <div class="mdl-grid">
-    <div class="mdl-cell mdl-cell--12-col"><br><br><br><br><br></div>
-  <div class="mdl-cell mdl-cell--2-col"></div>
-  <div class="mdl-cell mdl-cell--8-col">
+    <!-- <div class="mdl-cell mdl-cell--12-col">></div> -->
+  <!-- <div class="mdl-cell mdl-cell--2-col"></div> -->
+  <div class="mdl-cell mdl-cell--12-col">
     <style>
       .demo-card-square.mdl-card {
-        width: 733px;
-        height: 360px;
+        width: auto;
+        height: 500px;
+        /*width: 733px;*/
+        /*height: 360px;*/
       }
       .demo-card-square > .mdl-card__title {
         color: #fff;
@@ -79,7 +81,7 @@
         </button>
       </div>
     </div>
-  <div class="mdl-cell mdl-cell--2-col"></div>
+  <!-- <div class="mdl-cell mdl-cell--2-col"></div> -->
 
 </div>
 @stop
