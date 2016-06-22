@@ -5,6 +5,11 @@
 /* Word Colors */
 /************************************************/
 /* Mixins / Placeholders */
+#probar {
+  margin: 20px;
+  height: 14px;
+}
+
 #timer, #restart {
   margin: 0.2em;
   line-height: 2.2em;
@@ -44,7 +49,7 @@ section {
 
 #word-section {
   font-size: 1.5em;
-  height: 4em;
+  height: 7em;
   line-height: 2em;
   margin: 0 auto;
   /*margin-top: auto;
@@ -105,17 +110,17 @@ section {
   #results li {
     list-style: none; }
   #results li:first-child {
-    font-size: 1.5em; }
+    font-size: 3.5em; }
   #results li:nth-child(2) {
-    font-size: 0.8em;
+    font-size: 2em;
     line-height: 1em; }
   #results #results-stats {
-    font-size: 0.6em; }
+    font-size: 1.6em; }
 
 footer {
   margin-top: 1em;
   text-align: center;
-  font-size: 0.8em;
+  font-size: 1.2em;
   color: #000; }
 
 footer a {

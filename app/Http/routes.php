@@ -26,3 +26,11 @@ Route::get('ya', function () {
 Route::get('pa', function () {
     return view('wpmapp.testplay');
 });
+
+Route::get('play/bahasa', function () {
+    return view('wpmapp.playbahasa');
+});
+
+Route::get('play/english', function () {
+    return view('wpmapp.playenglish');
+});
