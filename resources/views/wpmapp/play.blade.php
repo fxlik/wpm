@@ -20,7 +20,7 @@
   <!-- jQuery -->
   <script src="{{ asset('/jQuery/jquery-1.12.3.js') }}" type="text/javascript"></script>
 
-  <!-- bootstrap js--->
+  bootstrap js--->
   <script src="{{ asset('/js/bootstrap.min.js') }}" type="text/javascript"></script>
   <script>
   function saya() {
@@ -78,7 +78,7 @@
 
 <div class="col-md-1"></div>
   <footer>
-    <!-- credit -->
+    <!-- <!-- credit -->
   </footer>
 
 

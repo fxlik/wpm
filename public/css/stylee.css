@@ -50,6 +50,7 @@ section {
 #word-section {
   font-size: 1.5em;
   height: 7em;
+  width: 45em;
   line-height: 2em;
   margin: 0 auto;
   /*margin-top: auto;
@@ -92,16 +93,18 @@ section {
   margin-right: 0; }
 
 #restart {
-  width: 2em;
+  width: 3em;
+  height: 3em;
   background-color: #68A143; }
   #restart > span {
     display: inline-block;
-    transform: rotate(1.5Rad);
+    /*transform: rotate(1.5Rad);*/
     font-weight: bold; }
   #restart:hover {
     background-color: #467F21; }
   #restart:active {
-    box-shadow: 1px 1px 4px #467F21 inset; }
+    box-shadow: 1px 1px 4px #467F21 inset; 
+  }
 
 #results {
   text-align: center;

@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('wpmapp.hii');
-});
+// Route::get('/', function () {
+//     return view('wpmapp.hii');
+// });
 
 Route::get('play', function () {
     return view('wpmapp.play');
@@ -25,6 +25,12 @@ Route::get('ya', function () {
 
 Route::get('pa', function () {
     return view('wpmapp.testplay');
+});
+
+// game route here
+
+Route::get('/', function () {
+	return view('wpmapp.page');
 });
 
 Route::get('play/bahasa', function () {

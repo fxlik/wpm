@@ -71,12 +71,16 @@
         </button>
         <br>
         <br>
+
+        <a href="http://localhost:8000/play/bahasa">
         <button class="buttona mdl-button mdl-button--raised mdl-button--colored mdl-js-button mdl-js-ripple-effect">
           <i class="material-icons">settings</i> Setting
         </button>
+        </a>
         <br>
         <br>
         <button class="buttona mdl-button mdl-button--raised mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+
           <i class="material-icons">help_outline</i> Guide
         </button>
       </div>
